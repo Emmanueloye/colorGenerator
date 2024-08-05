@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96vh;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  color: #7878e6;
+}
+#color-box {
+  border: 1px solid grey;
+  background-color: #7878e6;
+  width: 20rem;
+  height: 20rem;
+  margin-bottom: 2rem;
+}
+
+#change-color-btn {
+  background-color: #7878e6;
+  border: none;
+  border-radius: 3rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  color: #dbd8d8;
+  font-weight: 600;
+  padding: 1rem 2rem;
+}
+#change-color-btn:hover {
+  box-shadow: none;
+}
